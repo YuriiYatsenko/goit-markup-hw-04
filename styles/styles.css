@@ -146,6 +146,7 @@ img {
     padding-bottom: 32px;
     justify-content: center;
     display: flex;
+    align-items: center;
 }
 
 .site-contacts .item-contacts:not(:last-child) {
@@ -352,6 +353,7 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #FFFFFF;
+    border-radius: 4px;
 }
 
 .team-title {
@@ -407,7 +409,7 @@ img {
     width: 270px;
     height: 428px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0 0 4px 4px;
+    border-radius: 4px;
 }
 
 .team-soc-icons {
@@ -521,6 +523,7 @@ footer {
 
 .footers {
     display: flex;
+    align-items: baseline;
 }
 
 .soc-text {
@@ -651,6 +654,7 @@ header {
     letter-spacing: 0.06em;
     margin-top: 0;
     margin-bottom: 0;
+    color: #000000;
 }
 
 .section-title {
@@ -664,6 +668,7 @@ header {
 .items-element:not(:last-child) {
     margin-bottom: 4px;
 }
+
 a {
     text-decoration: none;
 }
